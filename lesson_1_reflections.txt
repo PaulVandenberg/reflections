@@ -27,11 +27,3 @@ Confidence from Version Control
 How do you want to user Git?
 	Now that you have your workspace set up, what do you want to try using Git for?
 		Beginner coding, using it to review previous edits by others and make small changes without the risk of breaking something completely.
-
-Git Commands
-	Git log  --stat
-	Git diff
-	Git clone
-	Git checkout
-	Git init
-	Git status
