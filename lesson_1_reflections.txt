@@ -1,0 +1,37 @@
+First lesson taught how to use the Diff command in linux/OS X
+	Alternatively, use the FC command in Windows. (FileCompare)
+
+As part of the lesson, instructions were provided to setup Sublime Text, add the path to ~/bash.profile. Now it can be launched from the terminal using "subl" command.
+
+Part 2
+	How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+		Review mistakes, see what worked better or worse in the past, review how you made past improvements to similar, current issues.
+
+Manual Commits
+	What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+		Using manual commits will allow saving versions of working code when a bug is fixed or feature added/improvement made. It is flexible to allow the user to decide when is appropriate to save. Unfortunately it allow for long delays between commits which is risky to lose track of the changes. Or you may start to commit too often making it difficult to understand what each commit is doing.
+
+Multi-File Commits
+	Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+		Google doc is a word processing type text editor for making documents. These documents are typically independent of other documents so the use case warrants this type of behavior. Git was created because coding can often involve multiple related files being edited to implement a single there for requiring tracking multiple file diffs.
+
+Using git to View History
+	How can you use the commands git log and git diff to view the history of files?
+		git log will give you a list of the commits in reverse chronological order. The --stat argument can be added which gives statistics and a bar graph indicating the amount of changes done in that commit.
+		Once you have the commit id strings, you can use git diff {commit string 1} {commit string 2} to compare them.
+
+Confidence from Version Control
+	How might using version control make you more confident to make changes that could break something?
+		Since everything is tracked with each commit, it is easy to revert or review older commits, to correct any bugs.
+
+How do you want to user Git?
+	Now that you have your workspace set up, what do you want to try using Git for?
+		Beginner coding, using it to review previous edits by others and make small changes without the risk of breaking something completely.
+
+Git Commands
+	Git log  --stat
+	Git diff
+	Git clone
+	Git checkout
+	Git init
+	Git status
