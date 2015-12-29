@@ -1,0 +1,21 @@
+Git Commands
+	Git log  --stat
+	Git diff
+		No arguments = working dir to staging area
+		--staged = staging area to commit
+		commit 1 commit2 = compare 2 commits
+	Git Show {id}
+		automaically does diff compared to it's parent regardless of merge
+	Git clone
+	Git checkout
+		check out a commit
+	Git init
+		initialize new repository
+	Git status
+	Git add
+		Add file to staging area
+	Git Commit
+	Git branch
+		or... Git checkout -b new_branch_name <- creates new branch and automatically checks it out
+	git branch -d
+		delete a branch
