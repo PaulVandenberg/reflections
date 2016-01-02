@@ -6,24 +6,26 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    A pull from a remote repository could overwrite changes that you are currently working with on the local repository.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Forks are clones from 1 github repository to another github repository. -Copy someone's project to your github account.
+    Clone is a copy of another repository. -Begin work on a particular project on your machine
+    Branch is a copy of a commit. -Work on a specific improvement to the project.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+	you need the most recent known state so you can merge your commit with it and resolve conflicts. You can them push your commit to the remote keeping it up to date with the other contributers commits and stay at the origin/master tip.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    What comes to mind is emailing files, or setting up a shared network folder. It provides a greater level of openness and anyone could make any edits easily. Difficulty would be managing these changes and reconciling differences.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    A branch is used to work on a separate part or feature, then it can be merged back into the master once it's ready to be put into production.

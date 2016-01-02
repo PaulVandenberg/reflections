@@ -19,3 +19,12 @@ Git Commands
 		or... Git checkout -b new_branch_name <- creates new branch and automatically checks it out
 	git branch -d
 		delete a branch
+
+	GitHub - remote
+		git push
+		git pull
+		git merge
+		fork
+fetch
+pull request
+fast-forward merge
